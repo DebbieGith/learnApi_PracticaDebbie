@@ -36,7 +36,9 @@ public class JWTUtils {
 
         //Obtiene la fecha catual y calcula la fecha de expiración
         Date now = new Date();
+        // 04 / 09 / 2025 13:20:35
         Date expiration = new Date(now.getTime() + expiracionMs);
+        // 05 / 09 / 2025 13:20:35
 
         //Construye el token con sus componentes
         return Jwts.builder()
