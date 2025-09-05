@@ -2,7 +2,9 @@ package IntegracionBackFront.backfront.Config.Argon2;
 
 import de.mkammerer.argon2.Argon2;
 import de.mkammerer.argon2.Argon2Factory;
+import org.springframework.stereotype.Service;
 
+@Service
 public class Argon2Password {
 
     private static final int ITERARTIONS = 10;
